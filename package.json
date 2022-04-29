@@ -1,0 +1,12 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "serve": "lerna run --parallel serve",
+    "kill-ports": "kill-port --port 3000,3001,3002,3003,3004,3005,3006"
+  },
+  "devDependencies": {
+    "kill-port": "^1.6.1",
+    "lerna": "^4.0.0"
+  }
+}
